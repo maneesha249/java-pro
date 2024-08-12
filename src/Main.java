@@ -1,5 +1,6 @@
 public class Main{
    public static void main(String [] args){
-        System.out.println("Welcome to Java Project");
+        Customer customer1=new Customer(11,"Laya","Uttar Pradesh","laya@gmail.com");
+        System.out.println(customer1.getCustomerId());
    }
 }
